@@ -163,25 +163,24 @@ h3 {
     text-align:center;
 }
 
-
-#favorite-sites > .col-md-4 > img {
+#favorite-sites > .row > .col-md-4 > img {
     list-style-type:none;
-    margin: 0;
+    margin: 0 auto;
     padding:40px;
     display: flex;
     justify-content: space-around;
     text-align:center;
-
-
-/* (Don't understand why sizes don't change)
-
+    max-width:300px;
+}
+/*
 #favorite-sites > .row > .column-md-4 > img {
     margin: 0 auto;
 }
+*/
 #favorite-sites > column-md-4 > .row {
     max-width:200px;
 }
-*/
+
 footer { 
     background-color: #fff;
     text-align:center;
