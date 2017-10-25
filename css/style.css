@@ -201,3 +201,6 @@ footer > h1 {
 .container-fluid {
     padding: 0;
 }
+.img-modal {
+    text-align:center;
+}
